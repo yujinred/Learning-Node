@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const expressValidator = require('express-validator');
 const mongojs = require('mongojs');
-var db = mongojs('customerapp', ['users']);
+const db = mongojs('customerapp', ['users']);
 var ObjectId = mongojs.ObjectId;
 
 var app = express();
@@ -35,7 +35,7 @@ app.get('/', function(req, res) {
             title: 'Customers',
             users: docs
         });
-    })    
+    });
 });
 
 app.post('/users/Add', function(req, res) {

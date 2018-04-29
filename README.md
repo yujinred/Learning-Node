@@ -1,5 +1,10 @@
 # Learning Notes about NPM, Express, and MongoDB
 
+CREDITS: https://www.youtube.com/watch?v=gnsO8-xJ8rs
+Thank you to Traversy Media for this tutorial on NPM, Express, and MongoDB. 
+
+The implementation of the code is based off Traversy Media's tutorial. This README page is created by me (Eugene Zhang) to summarize the tutorial.
+
 ## NPM
 
 NPM allows ease of setting up our project in terms of modules. It is a very easy-to-use build automation tool which help set-up and manage dependencies.
